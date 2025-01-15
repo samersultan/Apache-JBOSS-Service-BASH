@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Check Apache + JBOSS and output status, if not on turn on
+
 # Array of services
 services=(
   "jbcs-httpd24-httpd.service"
